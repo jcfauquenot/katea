@@ -10,6 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Accueil />} />
         <Route path="/page" element={<Page2 />} />
+        <Route path="/greenMining" element={<greenMining />} />
       </Routes>
     </div>
   );
