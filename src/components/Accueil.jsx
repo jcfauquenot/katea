@@ -1,5 +1,6 @@
 import React from "react";
 import forest from "../assets/natureforesttreesfog.jpg";
+import Footer from "./Footer";
 
 const Accueil = () => {
   return (
@@ -19,13 +20,22 @@ const Accueil = () => {
           <p className="leading-normal text-white">Mining for the forest</p>
         </div>
       </div>
-      <div className="box-content p-4 text-center border-1">
-        <h1 className="text-2xl">Recuperer l’énergie pour la miner</h1>
-        <p>
+      <div className="box-content p-2 text-center border-1">
+        <h1 className="pt-6 text-2xl font-bold">
+          Récuperer l’énergie pour la miner
+        </h1>
+        <p className="h-14">
           Le principe est de placer nos fermes de minages à des endroits ou la
           Biodiversiter donne son énergie
         </p>
+        <button
+          type="button"
+          className="px-4 py-2 font-bold text-white bg-green-600 rounded hover:bg-green-700"
+        >
+          En savoir plus
+        </button>
       </div>
+      <Footer />
     </div> // fin de nature
   );
 };

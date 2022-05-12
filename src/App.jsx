@@ -3,7 +3,6 @@ import "./App.css";
 import Accueil from "./components/Accueil";
 import Page2 from "./components/Page2";
 import Token from "./components/Token";
-// Méthode 1 des images : on importe chaque image
 
 function App() {
   return (
