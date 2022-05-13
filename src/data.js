@@ -11,7 +11,7 @@ const nft = [
     name: "NFT 2",
     illustrator: "Jimmy",
     desc: "",
-    img: "https://pbs.twimg.com/media/Enmpzl2XMhttps://cdna.artstation.com/p/assets/images/images/042/903/660/large/raven-blake-lion3.jpg?1635776337&dl=1InH2q?format=jpg&name=4096x4096",
+    img: "https://pbs.twimg.com/media/FAj4HUaWYAMnI3P?format=jpg&name=small",
   },
 
   {
