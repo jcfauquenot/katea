@@ -23,7 +23,7 @@ const Token = () => {
           </div>
           <div>
             <p className="m-10 mb-10 text-xl">
-              Un système de plantation d’arbres via l’achat de Katea
+              Un système de plantation d’arbres via l’achat de Kate
             </p>
             <img
               className="w-8/12 gap-32 ml-10 h-2/5 flex-end"
