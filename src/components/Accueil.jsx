@@ -1,5 +1,6 @@
 import React from "react";
 import forest from "../assets/natureforesttreesfog.jpg";
+import Dev from "./Dev";
 import Footer from "./Footer";
 
 const Accueil = () => {
@@ -35,6 +36,7 @@ const Accueil = () => {
           En savoir plus
         </button>
       </div>
+      <Dev />
       <Footer />
     </div> // fin de nature
   );
