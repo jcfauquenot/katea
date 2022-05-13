@@ -1,4 +1,5 @@
 import React from "react";
+import Barre from "../assets/barrereseaux.png";
 
 const Footer = () => {
   return (
@@ -9,6 +10,7 @@ const Footer = () => {
           transformé notre manière de vivre.”
         </p>
         <p className="mt-4">Kaiko Pluvinage</p>
+        <img src={Barre} alt="feaf" />
       </div>
     </div>
   );
